@@ -1,1 +1,1 @@
-# texttools.github.io
+© 2018 Text Tools. All Rights Reserved.
