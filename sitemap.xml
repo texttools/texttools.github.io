@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://texttools.org/</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://texttools.org/feedback</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/settings</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/sort-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/convert-case</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/find-and-replace</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/reverse-list</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/difference-checker</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/word-count</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/add-prefix-suffix</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/add-line-breaks</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/remove-line-breaks</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/concatenate-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/split-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/extract-column</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/swap-columns</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/remove-spaces</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/remove-duplicate-lines</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/remove-empty-lines</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/remove-diacritics</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/remove-unwanted-characters</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/strip-html-tags</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/add-line-numbers</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/add-commas-to-numbers</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/replace-smart-straight-quotes</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/tabs-to-spaces</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/spaces-to-tabs</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/pad-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/word-wrap</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/justify-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/center-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/reverse-letters</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/reverse-words</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/upside-down-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/password-generator</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/filler-text</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/updates</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/contact</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/privacy</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/sort-text.html</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://texttools.org/reverse-list.html</loc>
+  <lastmod>2018-05-02T15:41:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>
