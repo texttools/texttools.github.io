@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concatenate Text - Text Tools</title>
+  <meta name="description" content="Combine two lists with an option to add a custom prefix, suffix and separator. This tool is useful when you want to join or merge two text documents line by line.">
+  <link rel="canonical" href="https://texttools.org/concatenate-text">
+  <link rel="icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link rel="stylesheet" href="/css/icons.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <section class="navbar">
+    <div class="nav-wrap"> 
+      <ul>
+        <li><a href="#" id="app_menu" class="tooltipped tooltipped-s" aria-label="Menu"><i class="i-menu font-24"></i></a></li>
+      </ul>
+      <a href="/" class="brand"><h2><b>Text</b> Tools</h2></a>
+      <ul class="right">
+        <li><a href="/settings" class="tooltipped tooltipped-s" aria-label="Settings"><i class="i-cog font-20"></i></a></li>
+        <li><a href="#" id="share_this" class="tooltipped tooltipped-s" aria-label="Share"><i class="i-share font-20"></i></a></li>
+      </ul>
+    </div>
+  </section>
+  <div class="mask"></div>
+  <nav id="nav-menu" class="clear">
+    <ul class="accordion">
+      <li class="title">TextTools.org</li>
+      <li><a href="/">Home</a></li>
+      <li>
+        <a href="#">Basic Tools</a>
+        <ul>
+          <li><a href="/sort-text"><i class="i-sort"></i>Sort Text</a></li>
+          <li><a href="/convert-case"><i class="i-case"></i>Convert Case</a></li>
+          <li><a href="/find-and-replace"><i class="i-find_replace"></i>Find & Replace</a></li>
+          <li><a href="/reverse-list"><i class="i-reverse_list"></i>Reverse List</a></li>
+          <li><a href="/difference-checker"><i class="i-compare"></i>Difference Checker</a></li>
+          <li><a href="/word-count"><i class="i-word_count"></i>Word Count</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Text Manipulation</a>
+        <ul>
+          <li><a href="/add-prefix-suffix"><i class="i-prefix"></i>Add Prefix & Suffix</a></li>
+          <li><a href="/add-line-breaks"><i class="i-linebreak"></i>Add Line Breaks</a></li>
+          <li><a href="/remove-line-breaks"><i class="i-remove"></i>Remove Line Breaks</a></li>
+          <li><a href="/concatenate-text"><i class="i-combine"></i>Concatenate Text</a></li>
+          <li><a href="/split-text"><i class="i-split i-rotate-90"></i>Split Text</a></li>
+          <li><a href="/extract-column"><i class="i-column"></i>Extract Column</a></li>
+          <li><a href="/swap-columns"><i class="i-swap"></i>Swap Columns</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Clean Text</a>
+        <ul>
+          <li><a href="/remove-spaces"><i class="i-extra_space"></i>Remove Spaces</a></li>
+          <li><a href="/remove-duplicate-lines"><i class="i-format"></i>Remove Duplicate Lines</a></li>
+          <li><a href="/remove-empty-lines"><i class="i-line_space"></i>Remove Empty Lines</a></li>
+          <li><a href="/remove-diacritics"><i class="i-remove"></i>Remove Diacritics</a></li>
+          <li><a href="/remove-unwanted-characters"><i class="i-chars"></i>Remove Unwanted Characters</a></li>
+          <li><a href="/strip-html-tags"><i class="i-code"></i>Strip HTML Tags</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Formatting</a>
+        <ul>
+          <li><a href="/add-line-numbers"><i class="i-line_numbers"></i>Add Line Numbers</a></li>
+          <li><a href="/add-commas-to-numbers"><i class="i-abc i-commafy">1,234</i>Add Commas to Numbers</a></li>
+          <li><a href="/replace-smart-straight-quotes"><i class="i-quote"></i>Replace Smart/Straight Quotes</a></li>
+          <li><a href="/tabs-to-spaces"><i class="i-tab"></i>Tabs to Spaces</a></li>
+          <li><a href="/spaces-to-tabs"><i class="i-space"></i>Spaces to Tabs</a></li>
+          <li><a href="/pad-text"><i class="i-pad"></i>Pad Text</a></li>
+          <li><a href="/word-wrap"><i class="i-wrap"></i>Word Wrap</a></li>
+          <li><a href="/justify-text"><i class="i-justify"></i>Justify Text</a></li>
+          <li><a href="/center-text"><i class="i-center"></i>Center Text</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Transform Text</a>
+        <ul>
+          <li><a href="/reverse-letters"><i class="i-abc i-revtext">cba</i>Reverse Letters</a></li>
+          <li><a href="/reverse-words"><i class="i-swap"></i>Reverse Words</a></li>
+          <li><a href="/upside-down-text"><i class="i-abc i-flip i-rotate-180">abc</i>Upside Down Text</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Generators</a>
+        <ul>
+          <li><a href="/password-generator"><i class="i-lock"></i>Password Generator</a></li>
+          <li><a href="/filler-text"><i class="i-format"></i>Filler Text</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">More Tools</a>
+        <ul>
+          <li><a href="https://onlinenotepad.org"><i class="i-notepad"></i>Online Notepad</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="wrapper padding-y">
+    <div class="widget w-100">
+      <header class="widget-header">
+        <h1>Concatenate Text</h1>
+      </header>
+      <hr>
+      <div class="widget-body">
+
+        <div class="clear xs-spacer-n xs-spacer-s">
+          <div class="left">
+            <div id="file_upload" class="dropdown">
+              <button type="button" class="btn btn-sm dropdown-trigger"><i class="fa fa-folder-open-o"></i>Load</button>
+              <div class="dropdown-menu">
+                <span class="file-button">
+                  <input type="file" id="upload_colA" onchange="loadTextA()" accept=".txt">
+                  <label for="upload_colA">Column A</label>
+                  <input type="file" id="upload_colB" onchange="loadTextB()" accept=".txt">
+                  <label for="upload_colB">Column B</label>
+                </span>
+              </div>
+            </div>
+
+            <button id="file_download" type="button" class="btn btn-sm none"><i class="fa fa-save"></i> Save</button>
+          </div>
+
+
+          <div class="right">
+            <span class="switch left">
+              <input type="checkbox" id="isEmpty">
+              <label for="isEmpty">Exclude Empty Lines</label>
+            </span>
+          </div>
+        </div>
+
+        <div class="clear spacer-n" id="options">
+          <div class="w-33 left spacer-r xs-100 xs-spacer-n xs-spacer-s">
+            <input id="prefix" type="text" placeholder="Prefix" value="" class="input-sm w-100">
+            <p class="input-hint">Add this at the beginning of each line</p>
+          </div>
+
+          <div class="w-33 left spacer-l spacer-r xs-100 xs-spacer-n xs-spacer-s">
+            <input id="infix" type="text" placeholder="Separator" value="" class="input-sm w-100">
+            <p class="input-hint">Add this at the middle of each line</p>
+          </div>
+
+          <div class="w-33 left spacer-l xs-100 xs-spacer-n xs-spacer-s">
+            <input id="suffix" placeholder="Suffix" type="text" value="" class="input-sm w-100">
+            <p class="input-hint">Add this at the end of each line</p>
+          </div>
+        </div>
+
+<style>
+#output_text{height:522px}
+#input_colA,#input_colB{height:456px;}
+
+@media (max-width: 768px){
+  #output_text,#input_colA,#input_colB{height:400px}
+}
+@media (max-width: 414px){
+  #output_text,#input_colA,#input_colB{height:514px}
+}
+@media (max-width: 412px){
+  #output_text,#input_colA,#input_colB{height:509px}
+}
+@media (max-width: 384px){
+  #output_text,#input_colA,#input_colB{height:418px}
+}
+@media (max-width: 375px){
+  #output_text,#input_colA,#input_colB{height:445px}
+}
+@media (max-width: 360px){
+  #output_text,#input_colA,#input_colB{height:418px}
+}
+@media (max-width: 320px){
+  #output_text,#input_colA,#input_colB{height:346px}
+}
+</style>
+
+        <div id="premerge" class="clear w-100">
+          <div class="w-50 left main">
+            <textarea id="input_colA"></textarea>
+          </div>
+
+          <div class="w-50 left main">
+            <textarea id="input_colB" style="border-left:0"></textarea>
+          </div>
+
+          <div class="clear">
+            <div class="right xs-100 xs-left">
+              <button id="combineText" type="button" class="btn btn-sm xs-50 xs-left">Combine</button>
+              <button id="clearAll" type="button" class="btn btn-sm btn-light xs-50 xs-left">Clear</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="merged" class="none">
+          <div id="main">
+            <textarea id="output_text"></textarea>
+            <div class="clipboard"><span class="tooltipped tooltipped-n" aria-label="Click to copy"><i class="i-copy" ></i></span></div>
+          </div>
+          
+          <div class="clear">
+            <span class="left hidden-xs-down" id="instances"></span>
+            <div class="right xs-100">
+              <button id="startOver" type="button" class="btn btn-sm xs-100 xs-right">Go Back</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="clear w-100 margin-y">
+      <aside class="widget wm-33 right padding-0 box-as">
+        <style>
+        .tt_box {width:300px;height:250px}
+        @media(min-width:374px) {.tt_box{width:336px;height:280px}}
+        @media(min-width:1057px) {.tt_box{width:300px;height:250px}}
+        @media(min-width:1110px) {.tt_box{width:336px;height:280px}}
+        </style>
+
+        <ins class="adsbygoogle tt_box" style="display:inline-block" data-ad-client="ca-pub-2859608055830984" data-ad-slot="3138613201" data-ad-format="auto"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </aside>
+
+      <article class="widget wm-67 left box-content">
+        <header class="widget-header">
+          <h4>About</h4>
+        </header>
+        <hr>
+        <p>Combine two lists with an option to add a custom prefix, suffix and separator. This is useful when you want to join or merge two text documents line by line.</p>
+
+
+        <header class="widget-header">
+          <h4>Basic Example</h4>
+        </header>
+        <hr>
+        <p>Concatenate first names and surnames, with <code>space</code> as a separator.</p>
+
+        Column 1
+        <pre>Sarah
+Anthony
+William
+Steven</pre>
+
+        Column 2
+        <pre>Mitchell
+Edwards
+Johnson
+Davis</pre>
+
+        Result
+        <pre>Sarah Mitchell
+Anthony Edwards
+William Johnson
+Steven Davis</pre>
+
+        <header class="widget-header">
+          <h4>Exclude Empty Lines</h4>
+        </header>
+        <hr>
+        <p>When enabled, the tool will not add the specified prefix, suffix and/or separator when both lines are empty.</p>
+
+        <header class="widget-header">
+          <h4>Related Tools</h4>
+        </header>
+        <hr>
+        <ul>
+          <li><a href="/split-text"><strong>Split Text</strong></a> - Split a text into individual columns, or by a new line.</li>
+          <li><a href="/extract-column"><strong>Extract Column</strong></a> - Get a specific column from a delimited text.</li>
+          <li><a href="/swap-columns"><strong>Swap Columns</strong></a> - Swap two columns from a delimited text.</li>
+        </ul>
+
+      </article>
+    </div>
+
+  <div class="toast" role="alert"><div class="toast-content"></div></div>
+  </main>
+  <br>
+  <footer class="clear font-14">
+    <div class="wrapper">
+      <div class="left">
+        © 2018 Text Tools. All Rights Reserved.
+      </div>
+      <div class="right">
+        <ul class="list-style-none">
+          <li><a href="/contact">Contact</a></li> 
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/site.js"></script>
+  <script src="/js/concatenate-text.js"></script>
+  <script>
+    $('body').ready(function() {
+      $('.accordion > li:eq(3) > a').addClass('active').next().show();
+    });
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+</html>

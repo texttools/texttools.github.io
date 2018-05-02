@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text Tools - Text Manipulation, Editing and Formatting</title>
+  <meta name="description" content="A collection of web-based text processing tools that will help you automate the recurring tasks of editing and formatting blocks of text.">
+  <link rel="canonical" href="https://texttools.org/settings">
+  <link rel="icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link rel="stylesheet" href="/css/icons.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <section class="navbar">
+    <div class="wrapper"> 
+      <a href="/" class="brand"><h1><b>Text</b> Tools</h1></a>
+      <ul class="right">
+        <li><a href="/" class="tooltipped tooltipped-s" aria-label="Home"><i class="i-home font-22"></i></a></li>
+        <li><a href="/feedback" class="tooltipped tooltipped-s" aria-label="Suggest"><i class="i-feedback font-25"></i></a></li>
+        <li><a href="/settings" class="tooltipped tooltipped-s" aria-label="Settings"><i class="i-cog font-20"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <style type="text/css">
+    select{min-width: 120px}
+    .form-group label{margin-left:14px}
+    .form-group {max-width:500px;}
+    .switch {margin:0 14px}
+  </style>
+
+  <main class="wrapper padding-y">
+    <div class="widget w-100 clear">
+
+      <header class="widget-header">
+        <h2>Settings</h2>
+      </header>
+      <hr>
+
+      <h4>General</h4>
+      <div class="form-group spacer-n xs-spacer-n">
+        <label for="ta_language">Language</label>
+        <select id="ta_language" class="input-sm right">
+          <option>English</option>
+        </select>
+      </div>
+
+      <br>
+
+      <h4>Appearance</h4>
+      <div class="form-group spacer-n xs-spacer-n">
+        <label for="ta_theme">Style</label>
+        <select id="ta_theme" class="input-sm right">
+          <option>Light</option>
+          <option>Dark</option>
+        </select>
+      </div>
+
+      <div class="form-group spacer-n xs-spacer-n">
+        <label for="ta_font">Font</label>
+        <select id="ta_font" class="input-sm right">
+          <option>Arial</option>
+          <option>Helvetica</option>
+          <option>Roboto</option>
+          <option>Tahoma</option>
+          <option>Monospace</option>
+          <option>Verdana</option>
+        </select>
+      </div>
+
+      <div class="form-group spacer-n xs-spacer-n">
+        <label for="ta_size">Size</label>
+        <select id="ta_size" class="input-sm right">
+          <option>10px</option>
+          <option>12px</option>
+          <option>14px</option>
+          <option>15px</option>
+          <option>16px</option>
+          <option>18px</option>
+        </select>
+      </div>
+
+      <br>
+
+      <h4>Preference</h4>
+      <div class="spacer-n xs-spacer-n">
+        <span class="switch">
+          <input type="checkbox" id="ta_spellcheck">
+          <label for="ta_spellcheck">Use spell checker</label>
+        </span>
+      </div>
+
+      <div class="spacer-n xs-spacer-n">
+        <span class="switch">
+          <input type="checkbox" id="ta_textwrap">
+          <label for="ta_textwrap">Use word wrap</label>
+        </span>
+      </div>
+
+
+      <div class="spacer-n xs-spacer-n">
+        <span class="switch">
+          <input type="checkbox" id="ta_examples">
+          <label for="ta_examples">Automatically load examples</label>
+        </span>
+      </div>
+
+      <hr>
+
+      <div class="clear xs-spacer-n">
+        <div class="right xs-100 xs-left"">
+          <button id="save_btn" type="button" class="btn btn-sm xs-50 xs-left">Save</button>
+          <button id="reset_btn" type="button" class="btn btn-sm btn-light xs-50 xs-left">Reset</button>
+        </div>
+      </div>
+
+    </div>
+
+  <div class="toast" role="alert"><div class="toast-content"></div></div>
+  </main>
+  
+  <br><br>
+  <footer class="clear font-14">
+    <div class="wrapper">
+      <div class="left">
+        © 2018 Text Tools. All Rights Reserved.
+      </div>
+      <div class="right">
+        <ul class="list-style-none">
+          <li><a href="/contact">Contact</a></li> 
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/site.js"></script>
+  <script src="/js/settings.js"></script>
+</body>
+</html>
