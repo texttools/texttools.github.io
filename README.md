@@ -6,8 +6,9 @@
 * [Sort Text](https://texttools.org/sort-text)
 * [Convert Case](https://texttools.org/convert-case)
 * [Find & Replace](https://texttools.org/find-and-replace)
+* [Reverse List](https://texttools.org/reverse-list)
 * [Difference Checker](https://texttools.org/difference-checker)
-* [Word Count](https://texttools.org/difference-checker)
+* [Word Count](https://texttools.org/word-count)
 
 ## Text Manipulation
 * [Add Prefix/Suffix into Each Line](https://texttools.org/add-prefix-suffix)
