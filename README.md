@@ -51,4 +51,4 @@
 * [Online Notepad](https://onlinenotepad.org/)
 
 
-© 2018 Text Tools. All Rights Reserved.
+© 2005 - 2018 Text Tools. All Rights Reserved.
