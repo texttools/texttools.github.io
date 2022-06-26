@@ -50,13 +50,24 @@
 * [Cursive Text Generator](https://texttools.org/cursive-text-generator)
 * [Normalize Unicode Text](https://texttools.org/normalize-unicode-text)
 
-## Generators
-* [Password Generator](https://texttools.org/password-generator)
+## Encode & Decode
+* [HTML Encode Decode](https://texttools.org/html-encode-decode)
+* [URL Encode Decode](https://texttools.org/url-encode-decode)
+* [HTML Escape Unescape](https://texttools.org/html-escape-unescape)
+
+## Random Generators
+* [Unique Username Generator](https://texttools.org/unique-username-generator)
+* [Strong Password Generator](https://texttools.org/password-generator)
+* [Pronounceable Password Generator](https://texttools.org/pronounceable-password-generator)
+* [Random String Generator](https://texttools.org/random-string-generator)
+* [Random Word Generator](https://texttools.org/random-word-generator)
 * [Filler Text](https://texttools.org/img/thumbnails/filler.png)
-* []()
+* [Random Number Generator](https://texttools.org/random-number-generator)
+* [Random Email Generator](https://texttools.org/random-email-generator)
 
 ## More Tools
 * [Online Notepad](https://onlinenotepad.org/)
 
 
-© 2005 - 2018 Text Tools. All Rights Reserved.
+
+© 2005 - 2022 Text Tools. All Rights Reserved.
