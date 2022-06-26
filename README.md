@@ -1,4 +1,4 @@
-# Text Tools - Text Manipulation, Editing and Formatting
+# **TextTools.org: Free Text Formatting & Text Manipulation Tools** 
 
 [Text Tools](https://texttools.org) is a collection of web-based text processing tools that will help you automate the recurring tasks of editing and formatting blocks of text.
 
