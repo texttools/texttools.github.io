@@ -18,13 +18,17 @@
 * [Split Text](https://texttools.org/split-text)
 * [Extract Column](https://texttools.org/extract-column)
 * [Swap Column](https://texttools.org/swap-columns)
+* [Reverse Words](https://texttools.org/reverse-words)
+* [Reverse Letters](https://texttools.org/reverse-letters)
 
-## Clean Text
-* [Remove Spaces](https://texttools.org/remove-spaces)
+## Text Cleaner
+* [Remove Extra Spaces](https://texttools.org/remove-extra-spaces)
 * [Remove Duplicate Lines](https://texttools.org/remove-duplicate-lines)
 * [Remove Empty Lines](https://texttools.org/remove-empty-lines)
-* [Remove Diacritics](https://texttools.org/remove-diacritics)
+* [Remove Letter Accents](https://texttools.org/remove-letter-accents)
 * [Remove Unwanted Characters](https://texttools.org/remove-unwanted-characters)
+* [Remove Lines Containing](https://texttools.org/remove-lines-containing)
+* [Remove Emojis](https://texttools.org/remove-emojis)
 * [Strip HTML Tags](https://texttools.org/strip-html-tags)
 
 ## Text Formatting
@@ -38,14 +42,18 @@
 * [Justify Text](https://texttools.org/justify-text)
 * [Center Text](https://texttools.org/center-text)
 
-## Transform Text
-* [Reverse Letters](https://texttools.org/reverse-letters)
-* [Reverse Words](https://texttools.org/reverse-words)
+## Unicode Text
 * [Upside Down Text](https://texttools.org/upside-down-text)
+* [Bold Text Generator](https://texttools.org/bold-text-generator)
+* [Italic Text Generator](https://texttools.org/italic-text-generator)
+* [Old English Text Generator](https://texttools.org/old-english-text-generator)
+* [Cursive Text Generator](https://texttools.org/cursive-text-generator)
+* [Normalize Unicode Text](https://texttools.org/normalize-unicode-text)
 
 ## Generators
 * [Password Generator](https://texttools.org/password-generator)
 * [Filler Text](https://texttools.org/img/thumbnails/filler.png)
+* []()
 
 ## More Tools
 * [Online Notepad](https://onlinenotepad.org/)
